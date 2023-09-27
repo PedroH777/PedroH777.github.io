@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Skranji:wght@400;700&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+  background: url(img/fans.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
+  
+}
+
+nav{
+  width: 100%;
+  height: 100px;
+  
+  color: yellow;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.logo{
+  font-size: 2em;
+  letter-spacing: 2px;
+  color: yellow;
+  border-radius: 9px;
+
+}
+
+
+.logo img{
+  width: 170px;
+}
+.logo:hover{
+  color: #fff;
+}
+
+
+.menu a{
+  text-decoration: none;
+  color:yellow ;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-bottom: 1px solid yellow;
+ 
+}
+
+
+  
+
+
+.register{
+ 
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+ 
+}
+
+.register a{
+  text-decoration: none;
+  color:black ;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  background: yellow;
+  transition: all 0.5s ease-in-out;
+}
+
+
+.register a:hover{
+   color: white;
+   background: black;
+}
+
+
+.h-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 650px;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: #fff;
+}
+
+.h-text span{
+  letter-spacing: 5px;
+}
+
+.h-text h1{
+  font-size: 3.5em;
+}
+
+.h-text a{
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
+  background: yellow;
+  border-radius: 9px;
+  letter-spacing: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.h-text a:hover{
+  background: black;
+  color: yellow;
+  
+}
+
+
+.form{
+  background: black;
+  color: white;
+}
+
+
+.abc{
+  background: yellow;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+
+@media screen and (max-width: 670px) {
+   header{
+    background: url(img/OIP.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;}
+    
+    .menu a{
+      text-decoration: none;
+      color:yellow ;
+      padding: 10px 20px;
+      font-size: 15px;
+      padding: 5px;
+     
+    }
+    
+   
+}
